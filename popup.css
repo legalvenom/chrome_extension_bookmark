@@ -41,6 +41,11 @@
   padding-left: 2px;
 }
 
+.edit-title-input {
+  width: calc(100% - 30px);
+  padding-left: 2px;
+}
+
 .bookmark-controls img {
   margin: 0 4px;
   width: 18px;
@@ -51,4 +56,15 @@
 .bookmark-controls {
   flex: auto;
   text-align: right;
+}
+
+.autopause-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.autopause-container button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
