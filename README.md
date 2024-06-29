@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Chrome extension allows users to bookmark timestamps in YouTube videos. Additional features include auto-pause functionality when switching tabs or minimizing the browser, and the ability to edit bookmark names.
+This Chrome extension allows users to bookmark multiple timestamps in YouTube videos. Additional features include auto-pause functionality when switching tabs or minimizing the browser, and the ability to edit bookmark names.
 
 ## Key Features
 
