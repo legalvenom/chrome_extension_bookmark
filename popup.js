@@ -126,10 +126,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       viewBookmarks(currentVideoBookmarks);
     });
-  } else {
+  } else if (activeTab.url.includes("youtube.com")) {
     const container = document.getElementsByClassName("container")[0];
 
-    container.innerHTML = '<div class="title">This is not a youtube video page.</div>';
+    container.innerHTML = '<div class="title">This is not a youtube video .</div>';
+  } else{
+    const container = document.getElementsByClassName("container")[0];
+
+    container.innerHTML = '<div class="title">This is not a youtube page .</div>';
   }
 
   const autoPauseButton = document.getElementById("autopause-btn");
